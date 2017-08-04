@@ -6,11 +6,11 @@ Cozy Hello World
 [![Greenkeeper badge](https://badges.greenkeeper.io/CPatchane/cozy-hello-world.svg?style=flat-square
 )](https://greenkeeper.io/)
 [![David](https://img.shields.io/david/cpatchane/cozy-hello-world.svg?style=flat-square
-)](https://github.com/CPatchane/ccozy-hello-world/blob/master/package.json)
+)](https://github.com/CPatchane/cozy-hello-world/blob/master/package.json)
 [![David](https://img.shields.io/david/dev/cpatchane/cozy-hello-world.svg?style=flat-square
-)](https://github.com/CPatchane/ccozy-hello-world/blob/master/package.json)
+)](https://github.com/CPatchane/cozy-hello-world/blob/master/package.json)
 [![license](https://img.shields.io/github/license/cpatchane/cozy-hello-world.svg?style=flat-square
-)](https://github.com/CPatchane/ccozy-hello-world/blob/master/LICENSE)
+)](https://github.com/CPatchane/cozy-hello-world/blob/master/LICENSE)
 
 What's Cozy?
 ------------
