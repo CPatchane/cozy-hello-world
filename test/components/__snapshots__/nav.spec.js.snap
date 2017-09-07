@@ -10,6 +10,7 @@ exports[`Nav component should be rendered correctly 1`] = `
     >
       <NavLink
         activeClassName="active"
+        ariaCurrent="true"
         className="hello-cat-hello1 coz-nav-link"
         to="/viewhello1"
       >
@@ -21,6 +22,7 @@ exports[`Nav component should be rendered correctly 1`] = `
     >
       <NavLink
         activeClassName="active"
+        ariaCurrent="true"
         className="hello-cat-hello2 coz-nav-link"
         to="/viewhello2"
       >
@@ -32,6 +34,7 @@ exports[`Nav component should be rendered correctly 1`] = `
     >
       <NavLink
         activeClassName="active"
+        ariaCurrent="true"
         className="hello-cat-hello3 coz-nav-link"
         to="/viewhello3"
       >
