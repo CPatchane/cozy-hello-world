@@ -7,6 +7,11 @@
 }
 
 @media (max-width: 63.9375rem) {
+	.c-nav-link {
+		padding-left: 0;
+		padding-top: 2em;
+	}
+
   .hello-cat-hello1, .hello-cat-hello2, .hello-cat-hello3 {
   	background: no-repeat center top/16px var(--icon-nav-mobile);
   }

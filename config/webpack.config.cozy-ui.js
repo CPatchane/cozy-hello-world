@@ -13,7 +13,7 @@ module.exports = {
     rules: [
       {
         test: /\.styl$/,
-        exclude: /(node_modules)/,
+        exclude: /(node_modules|cozy-ui\/react)/,
         loader: extractor.extract({
           fallback: 'style-loader',
           use: [
