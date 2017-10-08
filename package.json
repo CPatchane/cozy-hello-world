@@ -131,7 +131,6 @@
     "globals": {
       "__ALLOW_HTTP__": false,
       "__TARGET__": "browser",
-      "__SENTRY_TOKEN__": "token",
       "cozy": {}
     }
   },
