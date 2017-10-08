@@ -99,7 +99,7 @@
   "dependencies": {
     "cozy-bar": "^4.1.4",
     "cozy-client-js": "^0.3.17",
-    "cozy-ui": "^4.0.0",
+    "cozy-ui": "git://github.com/cpatchane/cozy-ui.git#5994bc4383ba25f28ffafa5df6b0d328e9c2732d",
     "date-fns": "^1.28.5",
     "enzyme-adapter-react-16": "^1.0.1",
     "node-polyglot": "^2.2.2",
