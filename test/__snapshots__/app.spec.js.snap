@@ -8,7 +8,25 @@ exports[`App component only should be mounted correctly 1`] = `
   <main
     className="hello-content"
   >
-    <AppRoutes />
+    <Switch>
+      <Route
+        component={[Function]}
+        path="/viewhello1"
+      />
+      <Route
+        component={[Function]}
+        path="/viewhello2"
+      />
+      <Route
+        component={[Function]}
+        path="/viewhello3"
+      />
+      <Redirect
+        from="/"
+        push={false}
+        to="/viewhello1"
+      />
+    </Switch>
   </main>
 </div>
 `;

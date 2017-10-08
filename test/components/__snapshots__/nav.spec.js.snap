@@ -3,39 +3,39 @@
 exports[`Nav component should be rendered correctly 1`] = `
 <nav>
   <ul
-    className="coz-nav"
+    className="c-nav"
   >
     <li
-      className="coz-nav-item"
+      className="c-nav-item"
     >
       <NavLink
         activeClassName="active"
         ariaCurrent="true"
-        className="hello-cat-hello1 coz-nav-link"
+        className="hello-cat-hello1 c-nav-link"
         to="/viewhello1"
       >
         First menu item
       </NavLink>
     </li>
     <li
-      className="coz-nav-item"
+      className="c-nav-item"
     >
       <NavLink
         activeClassName="active"
         ariaCurrent="true"
-        className="hello-cat-hello2 coz-nav-link"
+        className="hello-cat-hello2 c-nav-link"
         to="/viewhello2"
       >
         Second menu item
       </NavLink>
     </li>
     <li
-      className="coz-nav-item"
+      className="c-nav-item"
     >
       <NavLink
         activeClassName="active"
         ariaCurrent="true"
-        className="hello-cat-hello3 coz-nav-link"
+        className="hello-cat-hello3 c-nav-link"
         to="/viewhello3"
       >
         Third menu item
