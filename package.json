@@ -1,6 +1,6 @@
 {
   "name": "cozy-hello-world",
-  "version": "3.0.0",
+  "version": "0.1.0",
   "main": "src/index.jsx",
   "scripts": {
     "build": "npm run build:browser",

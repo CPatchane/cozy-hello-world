@@ -4,7 +4,7 @@
   "icon": "icon.svg",
   "description": "An hello world cozy application",
   "category": "cozy",
-  "version": "3.0.0",
+  "version": "0.1.0",
   "licence": "AGPL-3.0",
   "source": "https://github.com/cozy/cozy-hello-world.git@build",
   "developer": {
