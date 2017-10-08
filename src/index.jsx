@@ -6,9 +6,11 @@ import './styles'
 
 import React from 'react'
 import { render } from 'react-dom'
+import { Provider } from 'react-redux'
+import { I18n } from 'cozy-ui/react/I18n'
 
 import store from './lib/store'
-import Root from './components/Root'
+import App from './components/App'
 
 if (__DEVELOPMENT__) {
   // Enables React dev tools for Preact
@@ -20,13 +22,13 @@ if (__DEVELOPMENT__) {
 }
 
 const renderApp = function (lang) {
-  render(<Root
-    store={store}
-    lang={lang} />, document.querySelector('[role=application]'))
-}
-
-if (module.hot) {
-  module.hot.accept('./components/Root', () => requestAnimationFrame(renderApp))
+  render(
+    <I18n lang={lang} dictRequire={(lang) => require(`./locales/${lang}`)}>
+      <Provider store={store}>
+        <App />
+      </Provider>
+    </I18n>
+  , document.querySelector('[role=application]'))
 }
 
 document.addEventListener('DOMContentLoaded', () => {
