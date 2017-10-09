@@ -101,7 +101,7 @@
   "dependencies": {
     "cozy-bar": "^4.2.5",
     "cozy-client-js": "^0.3.19",
-    "cozy-ui": "git://github.com/cpatchane/cozy-ui.git#5994bc4383ba25f28ffafa5df6b0d328e9c2732d",
+    "cozy-ui": "git://github.com/cpatchane/cozy-ui.git#eb726dd77919e3e9ae3499b0a0bc93cc5ca15b8b",
     "preact": "^8.2.5",
     "preact-compat": "^3.17.0",
     "react-redux": "^5.0.6",
