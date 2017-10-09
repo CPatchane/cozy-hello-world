@@ -102,7 +102,6 @@
     "cozy-bar": "^4.2.5",
     "cozy-client-js": "^0.3.19",
     "cozy-ui": "git://github.com/cpatchane/cozy-ui.git#5994bc4383ba25f28ffafa5df6b0d328e9c2732d",
-    "date-fns": "^1.28.5",
     "preact": "^8.2.5",
     "preact-compat": "^3.17.0",
     "react-redux": "^5.0.6",
