@@ -10,7 +10,7 @@ import { Provider } from 'react-redux'
 import { I18n } from 'cozy-ui/react/I18n'
 
 import store from './lib/store'
-import App from './components/App'
+import App from './App'
 
 if (__DEVELOPMENT__) {
   // Enables React dev tools for Preact
